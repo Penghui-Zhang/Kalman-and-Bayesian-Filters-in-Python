@@ -1,8 +1,8 @@
-# 全书中文 PDF · 第一轮审校版
+# 全书中文 PDF · 审校修订版
 
-[直接下载 PDF（526 页，约 31 MB）](https://raw.githubusercontent.com/Penghui-Zhang/Kalman-and-Bayesian-Filters-in-Python/master/pdf/Kalman-and-Bayesian-Filters-in-Python.zh-CN.pdf)
+[直接下载 PDF（527 页，约 32 MB）](https://raw.githubusercontent.com/Penghui-Zhang/Kalman-and-Bayesian-Filters-in-Python/master/pdf/Kalman-and-Bayesian-Filters-in-Python.zh-CN.pdf)
 
-本版供阅读与校样，已完成全书英中逐句对照的第一轮审校，尚非出版定稿。最终中文通读与逐页视觉校样仍在进行。封面和版本说明均标明“第一轮审校版”。
+本版已完成全书英中逐句对照审校、中文通读及原 526 页全页版式检查，并据此修订。公式采用常规字重，修复了多行公式换行、图片前字距、动画静态帧及部分代码分页和图表标注问题。
 
 收录前言、第 1—14 章及原仓库全部 7 个附录（A、B、D、E、G、H、I）。附录 D、G、H 含未完成内容，附录 I 只有标题，保留原稿状态。
 
