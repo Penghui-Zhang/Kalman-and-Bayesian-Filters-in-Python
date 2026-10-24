@@ -74,9 +74,11 @@ def plot_track_ellipses(N, zs, ps, cov, title):
 
         if i == len(cov)-1:
             s = ('$\sigma^2_{pos} = %.2f$' % p[0,0])
-            plt.text (20, 5, s, fontsize=18)
+            plt.text(0.03, 0.16, s, transform=plt.gca().transAxes,
+                     fontsize=10, bbox=dict(facecolor='white', alpha=0.85, edgecolor='none'))
             s = ('$\sigma^2_{vel} = %.2f$' % p[1, 1])
-            plt.text (20, 0, s, fontsize=18)
+            plt.text(0.03, 0.04, s, transform=plt.gca().transAxes,
+                     fontsize=10, bbox=dict(facecolor='white', alpha=0.85, edgecolor='none'))
     plt.ylim(-5, 20)
     plt.gca().set_aspect('equal')
 
@@ -373,7 +375,7 @@ def plot_3d_sampled_covariance(mean, cov):
 def plot_3_covariances():
     P = [[2, 0], [0, 2]]
     plt.subplot(131)
-    plt.gca().grid(b=False)
+    plt.gca().grid(visible=False)
     plt.gca().set_xticks([0, 1, 2, 3, 4])
     plot_covariance_ellipse((2, 7), cov=P, facecolor='g', alpha=0.2,
                             title='|2 0|\n|0 2|', std=[3], axis_equal=False)
@@ -381,7 +383,7 @@ def plot_3_covariances():
     plt.gca().set_aspect('equal', adjustable='box')
 
     plt.subplot(132)
-    plt.gca().grid(b=False)
+    plt.gca().grid(visible=False)
     plt.gca().set_xticks([0, 1, 2, 3, 4])
     P = [[2, 0], [0, 6]]
     plt.ylim((0, 15))
@@ -390,7 +392,7 @@ def plot_3_covariances():
                             std=[3], axis_equal=False, title='|2 0|\n|0 6|')
 
     plt.subplot(133)
-    plt.gca().grid(b=False)
+    plt.gca().grid(visible=False)
     plt.gca().set_xticks([0, 1, 2, 3, 4])
     P = [[2, 1.2], [1.2, 2]]
     plt.ylim((0, 15))
