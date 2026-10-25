@@ -192,7 +192,7 @@ def plot_ball():
 
     p2, = plt.plot (xs, ys,lw=2)
     p3, = plt.plot (xs2, ys2,lw=4, c='r')
-    plt.legend([p1,p2, p3], ['Measurements', 'Kalman filter(R=0.5)', 'Kalman filter(R=10)'])
+    plt.legend([p1,p2, p3], ['Measurements', 'Kalman filter(R=1)', 'Kalman filter(R=10)'])
     plt.show()
 
 

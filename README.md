@@ -1,6 +1,6 @@
 # [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 
-📖 **[下载全书中文 PDF · 审校修订版（527 页，约 32 MB）](https://raw.githubusercontent.com/Penghui-Zhang/Kalman-and-Bayesian-Filters-in-Python/master/pdf/Kalman-and-Bayesian-Filters-in-Python.zh-CN.pdf)** · [中文版说明](pdf/README.zh-CN.md)
+📖 **[下载全书中文 PDF · 审校修订版（526 页，约 32 MB）](https://raw.githubusercontent.com/Penghui-Zhang/Kalman-and-Bayesian-Filters-in-Python/master/pdf/Kalman-and-Bayesian-Filters-in-Python.zh-CN.pdf)** · [中文版说明](pdf/README.zh-CN.md)
 
 
 Introductory text for Kalman and Bayesian filters. All code is written in Python, and the book itself is written using Jupyter Notebook so that you can run and modify the code in your browser. What better way to learn?
